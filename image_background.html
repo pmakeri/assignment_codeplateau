@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image background</title>
+        
+<style>     
+    h1{
+        text-align: center;
+        color: greenyellow;
+    }
+    #big_wrapper{
+    max-width:  1000px;
+    margin: 20px 0px;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    
+    -webkit-box-flex: 1; /*the value of 1 is flexible, while the value of 0 is fixed*/
+    
+}
+    #bgimg{
+    background-image: url("images/SHE_0682.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    font: bold 20px tahoma;
+    text-decoration:none;
+    padding: 10px;
+}
+        
+/* unvisited link */
+a:link {
+	color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+	color: greenyellow;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: hotpink;
+	font-size: 16px;
+  }
+  
+  /* selected link */
+  a:active {
+	color: blue;
+
+  }
+
+
+        </style>
+    </head>
+    <body>
+        <div id = "bgimg">
+        <div id ="big_wrapper">
+            <h1>HTML_CSS IMAGE BACKGROUND</h1>
+
+            <nav style="text-align:center;">
+                <ul  class="nav navbar-nav">
+                    <li class=""><a href = "#">Home</a> </li>
+                    <li><a href = "#">Contact Us</a> </li>
+                    <li><a href = "#">About Us</a> </li>
+                </ul>
+                </nav>
+        <p style="margin: top 200px; color:greenyellow; font-size: 100px; text-align: center;">Web Body goes here</p>
+        </div>  
+    </div>   
+    </body>
+</html>
