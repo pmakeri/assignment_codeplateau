@@ -1,0 +1,138 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font: bold 20px Tahoma;
+	
+}
+h1{
+	font: bold 14px Tahoma;
+	
+}
+
+header, section, footer, aside, article, hgroup{
+	display: block;
+}
+
+
+/*
+#new_div{
+	background-image: url("images/wallpaper.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+*/
+
+body{
+	background-image: url("images/wallpaper.jpg");
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+} 
+#big_wrapper > .jumbotron{
+	text-align: center;
+}
+
+#big_wrapper{
+	max-width:  1000px;
+	margin: 20px 0px;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-flex: 1; /*the value of 1 is flexible, while the value of 0 is fixed*/
+	
+}
+#main_section{
+	float: left;
+	border: 1px solid blue;
+	width: 73%;
+	-webkit-box-flex: 1;
+	margin:10px;
+	padding: 10px;
+}
+
+#aside_news{
+	float: left;
+	border: 1px solid red;
+	width: 250px;
+	margin: 10px 0px;
+	padding: 27px;
+	background: #66CCCC;
+	text-align: justify;
+	-webkit-box-flex: 1;
+}
+
+
+#the_footer{
+	clear: both;
+	margin-top: 10px;
+	text-align: center;
+	padding: 20px;
+	border-top:2px solid green;
+	background-color: lightgray;
+	
+}
+footer section{
+	float: left;
+}
+#footer-nav{
+	float: right;
+	text-align: left;
+	width: auto;
+}
+#clear{
+	clear:both;
+}
+article{
+	background: #66CCCC;
+	border: 1px solid green;
+	margin: 10px;
+	padding: 10px;
+}
+article > p{
+	text-align: right;
+}
+img{
+	float: right;
+}
+
+footer li{
+	display: inline-block;
+    list-style: none;
+	font: bold 14px tahoma;
+}
+
+/* unvisited link */
+a:link {
+	color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+	color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: hotpink;
+	font-size: 16px;
+  }
+  
+  /* selected link */
+  a:active {
+	color: blue;
+
+  }
+
+  /* Code for background_image.html  */
+  #backimg{
+	background-image: url("images/wallpaper.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;  
+  }
